@@ -10,8 +10,8 @@
 app.py 和 Lark 報告會自動讀取版本號。
 """
 
-__version__ = "1.1.1"
-__version_name__ = "專案檔案整理"
+__version__ = "1.1.2"
+__version_name__ = "README 同步更新"
 
 
 def get_version_string() -> str:
