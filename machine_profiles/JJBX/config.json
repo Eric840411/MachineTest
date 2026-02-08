@@ -1,0 +1,34 @@
+{
+  "name": "JJBX 機器類型",
+  "description": "JJBX 機器的專屬測試流程",
+  "enabled": true,
+  "match_rules": {
+    "gameid": ["osmjjbx"],
+    "game_title_code_pattern": ["JJBX"]
+  },
+  "button_selectors": {
+    "spin": "button.jjbx-spin",
+    "bet": "button.jjbx-bet",
+    "max_bet": "button.jjbx-max-bet",
+    "balance": ".jjbx-balance"
+  },
+  "video_detection": {
+    "selector": "canvas.jjbx-canvas",
+    "threshold": {
+      "black": 10,
+      "transparent": 10,
+      "monochrome": 5
+    }
+  },
+  "special_config": {
+    "balance_check_interval": 15,
+    "spin_interval": 1.5,
+    "enable_free_spin_detection": true
+  }
+}
+
+
+
+
+
+

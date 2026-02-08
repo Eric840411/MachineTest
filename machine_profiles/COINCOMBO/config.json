@@ -1,0 +1,87 @@
+{
+  "name": "COINCOMBO 機器類型",
+  "description": "COINCOMBO 機器的專屬測試流程",
+  "enabled": true,
+  "match_rules": {
+    "game_title_code_pattern": ["COINCOMBO"]
+  },
+  "button_selectors": {
+    "spin": "button.spin, button[class*='spin'], [class*='spin-button']",
+    "bet": "button.bet, button[class*='bet'], [class*='bet-button']",
+    "balance": ".balance, [class*='balance'], [class*='credit']"
+  },
+  "button_test_config": {
+    "highlight_detection": {
+      "method": "css_class",
+      "css_class": "active, selected, highlight, yellow, [class*='active'], [class*='selected'], [class*='highlight']",
+      "background_color": "#FFD700, #FFEB3B, #FFC107, yellow, rgb(255, 215, 0), rgb(255, 235, 59)",
+      "check_style": true
+    },
+    "buttons": [
+      {
+        "name": "BET x1",
+        "selector": "button:has-text('BET x1'), [class*='bet'][class*='x1'], button[data-bet='1']",
+        "highlight_check": true
+      },
+      {
+        "name": "BET x2",
+        "selector": "button:has-text('BET x2'), [class*='bet'][class*='x2'], button[data-bet='2']",
+        "highlight_check": true
+      },
+      {
+        "name": "BET x4",
+        "selector": "button:has-text('BET x4'), [class*='bet'][class*='x4'], button[data-bet='4']",
+        "highlight_check": true
+      },
+      {
+        "name": "BET x6",
+        "selector": "button:has-text('BET x6'), [class*='bet'][class*='x6'], button[data-bet='6']",
+        "highlight_check": true
+      },
+      {
+        "name": "BET x10",
+        "selector": "button:has-text('BET x10'), [class*='bet'][class*='x10'], button[data-bet='10']",
+        "highlight_check": true
+      },
+      {
+        "name": "PLAY 9 Credits",
+        "selector": "button:has-text('PLAY 9'), [class*='play'][class*='9'], button[data-credits='9']",
+        "highlight_check": true
+      },
+      {
+        "name": "PLAY 18 Credits",
+        "selector": "button:has-text('PLAY 18'), [class*='play'][class*='18'], button[data-credits='18']",
+        "highlight_check": true
+      },
+      {
+        "name": "PLAY 38 Credits",
+        "selector": "button:has-text('PLAY 38'), [class*='play'][class*='38'], button[data-credits='38']",
+        "highlight_check": true
+      },
+      {
+        "name": "PLAY 68 Credits",
+        "selector": "button:has-text('PLAY 68'), [class*='play'][class*='68'], button[data-credits='68']",
+        "highlight_check": true
+      },
+      {
+        "name": "PLAY 88 Credits",
+        "selector": "button:has-text('PLAY 88'), [class*='play'][class*='88'], button[data-credits='88']",
+        "highlight_check": true
+      }
+    ]
+  },
+  "video_detection": {
+    "selector": "canvas, video",
+    "threshold": {
+      "black": 10,
+      "transparent": 10,
+      "monochrome": 5
+    }
+  },
+  "special_config": {
+    "balance_check_interval": 10,
+    "spin_interval": 1.0,
+    "enable_coin_combo_detection": true
+  }
+}
+

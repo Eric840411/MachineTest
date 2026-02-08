@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "duration": 5,
+  "sample_interval": 0.2,
+  "volume": {
+    "min_db": -40,
+    "max_db": -3,
+    "silence_threshold_db": -60
+  },
+  "clipping": {
+    "enabled": true,
+    "threshold": 0.95,
+    "max_ratio": 0.01
+  },
+  "stereo": {
+    "require_stereo": true,
+    "correlation_threshold": 0.95
+  },
+  "noise_floor_db": -55
+}
+

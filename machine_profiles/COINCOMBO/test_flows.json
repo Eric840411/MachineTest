@@ -1,0 +1,91 @@
+{
+  "flows": [
+    {
+      "name": "進入機器",
+      "description": "進入COINCOMBO機器並等待載入",
+      "enabled": true,
+      "timeout": 15.0,
+      "retry_count": 3,
+      "config": {
+        "wait_for_selector": ".game-container, canvas, video",
+        "check_loading": true,
+        "image_comparison": {
+          "enabled": true,
+          "similarity_threshold": 0.7,
+          "selector": null,
+          "region": {
+            "x": 0,
+            "y": 500,
+            "width": 500,
+            "height": 359
+          },
+          "images": []
+        }
+      }
+    },
+    {
+      "name": "視頻檢測",
+      "description": "檢測COINCOMBO視頻是否正常顯示",
+      "enabled": true,
+      "timeout": 10.0,
+      "retry_count": 2,
+      "config": {
+        "selector": "canvas, video",
+        "threshold": {
+          "black": 10,
+          "transparent": 10,
+          "monochrome": 5
+        },
+        "image_comparison": {
+          "enabled": true,
+          "similarity_threshold": 0.75,
+          "selector": "canvas, video",
+          "region": null,
+          "images": []
+        }
+      }
+    },
+    {
+      "name": "按鈕測試",
+      "description": "測試COINCOMBO專屬按鈕",
+      "enabled": true,
+      "timeout": 5.0,
+      "retry_count": 2,
+      "config": {
+        "buttons": ["BET x1", "BET x2", "BET x4", "BET x6", "BET x10", "PLAY 9 Credits", "PLAY 18 Credits", "PLAY 38 Credits", "PLAY 68 Credits", "PLAY 88 Credits"],
+        "check_highlight": true,
+        "image_comparison": {
+          "enabled": true,
+          "similarity_threshold": 0.8,
+          "selector": null,
+          "region": {
+            "x": 0,
+            "y": 0,
+            "width": 500,
+            "height": 200
+          },
+          "images": []
+        }
+      }
+    },
+    {
+      "name": "下注測試",
+      "description": "測試COINCOMBO下注功能",
+      "enabled": true,
+      "timeout": 20.0,
+      "retry_count": 2,
+      "config": {
+        "bet_amounts": [10, 50, 100],
+        "verify_balance_change": true,
+        "image_comparison": {
+          "enabled": true,
+          "similarity_threshold": 0.8,
+          "selector": null,
+          "region": null,
+          "images": []
+        }
+      }
+    }
+  ]
+}
+

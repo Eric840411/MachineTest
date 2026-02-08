@@ -1,0 +1,31 @@
+{
+  "name": "RISINGROCKETS 機器類型",
+  "description": "RISINGROCKETS 機器的專屬測試流程",
+  "enabled": true,
+  "match_rules": {
+    "game_title_code_pattern": ["RISINGROCKETS"]
+  },
+  "button_selectors": {
+    "spin": "button.spin",
+    "bet": "button.bet",
+    "balance": ".balance"
+  },
+  "video_detection": {
+    "selector": "canvas, video",
+    "threshold": {
+      "black": 10,
+      "transparent": 10,
+      "monochrome": 5
+    }
+  },
+  "special_config": {
+    "balance_check_interval": 10,
+    "spin_interval": 1.0
+  }
+}
+
+
+
+
+
+

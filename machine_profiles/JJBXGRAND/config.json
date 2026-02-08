@@ -1,0 +1,36 @@
+{
+  "name": "JJBXGRAND 機器類型",
+  "description": "JJBXGRAND 機器的專屬測試流程",
+  "enabled": true,
+  "match_rules": {
+    "gameid": ["osmjjbxgold"],
+    "game_title_code_pattern": ["JJBXGRAND", "JJBXGOLD"]
+  },
+  "button_selectors": {
+    "spin": "button.jjbxgrand-spin",
+    "bet": "button.jjbxgrand-bet",
+    "max_bet": "button.jjbxgrand-max-bet",
+    "grand_bonus": "button.jjbxgrand-grand-bonus",
+    "balance": ".jjbxgrand-balance"
+  },
+  "video_detection": {
+    "selector": "canvas.jjbxgrand-canvas",
+    "threshold": {
+      "black": 10,
+      "transparent": 10,
+      "monochrome": 5
+    }
+  },
+  "special_config": {
+    "balance_check_interval": 20,
+    "spin_interval": 2.0,
+    "enable_grand_bonus_detection": true,
+    "enable_jackpot_detection": true
+  }
+}
+
+
+
+
+
+

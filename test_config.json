@@ -1,0 +1,73 @@
+{
+  "test_mode": true,
+  "test_scenarios": {
+    "basic": {
+      "name": "基礎測試",
+      "description": "只測試進入遊戲和基本 Spin",
+      "enabled": false,
+      "test_flows": ["entry"],
+      "features": {
+        "enable_exit_flow": false,
+        "enable_special_actions": false
+      },
+      "spin_count": 5,
+      "spin_interval": 2.0
+    },
+    "balance_test": {
+      "name": "餘額測試",
+      "description": "測試餘額檢測和退出流程",
+      "enabled": false,
+      "test_flows": ["entry", "按鈕測試"],
+      "features": {
+        "enable_exit_flow": true,
+        "enable_special_actions": false
+      },
+      "spin_count": 20,
+      "spin_interval": 1.0,
+      "balance_threshold": 20000
+    },
+    "full_test": {
+      "name": "完整測試",
+      "description": "測試所有功能",
+      "enabled": false,
+      "features": {
+        "enable_exit_flow": true,
+        "enable_special_actions": true
+      },
+      "spin_count": 50,
+      "spin_interval": 1.0
+    },
+    "navigation_test": {
+      "name": "導航測試",
+      "description": "只測試進入/退出遊戲流程",
+      "enabled": true,
+      "test_flows": ["entry"],
+      "features": {
+        "enable_exit_flow": true,
+        "enable_special_actions": false
+      },
+      "spin_count": 3,
+      "spin_interval": 1.0,
+      "test_exit_after_spins": 3
+    }
+  },
+  "active_scenario": "navigation_test",
+  "test_service": {
+    "enabled": false,
+    "url": "http://localhost:8080",
+    "api_key": ""
+  },
+  "video_detection": {
+    "selector": "canvas, video",
+    "threshold": {
+      "black": 10,
+      "transparent": 10,
+      "monochrome": 5
+    }
+  },
+  "button_tests": {
+    "selectors": ["button.spin", "button.bet", "button.play"],
+    "timeout": 5.0
+  }
+}
+

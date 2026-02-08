@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# 環境變數（含敏感資訊）
+dotenv.env
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# 測試輸出 / 暫存
+comparison_results/
+screenshots/
+_unsorted_screenshots/
+
+# 舊版備份
+_legacy/
+

@@ -1,0 +1,62 @@
+[
+    {
+        "url": "https://osm-redirect.osmslot.org/?token=f76856cf4429ddc75925dbf98b14b1ab-325599&platform=pc&mode=live&language=zh_cn&studioid=cp&gameid=osmbwjl&lang=en_us&username=osmel002&device=mobile&isPwaClaimed=1",
+        "enabled": true
+    },
+    {
+        "url": "https://osm-redirect.osmslot.org/?token=c3e16bf4c1526b75ca8be1083174e8be-325601&platform=pc&mode=live&language=zh_cn&studioid=cp&gameid=osmbwjl&lang=en_us&username=osmel003&device=mobile&isPwaClaimed=1",
+        "enabled": true
+    },
+    {
+        "url": "https://osmclient-c.bewen.me/?token=e84102ab86e88e62489ba027d8f6fc65-325602&platform=pc&mode=live&language=zh_cn&studioid=cp&gameid=osmbwjl&lang=en_us&username=osmel004&device=mobile&isPwaClaimed=1",
+        "enabled": false
+    },
+    {
+        "url": "https://osmclient-c.bewen.me/?token=9dd05007c0a66b6f0ce7087dda340c12-325613&platform=pc&mode=live&language=zh_cn&studioid=cp&gameid=osmjjbxgold&lang=en_us&username=osmel012&device=mobile&isPwaClaimed=1",
+        "enabled": false
+    },
+    {
+        "url": "https://osmclient-c.bewen.me/?token=64818437a5095a14270264a935487893-325614&platform=pc&mode=live&language=zh_cn&studioid=cp&gameid=osmjjbxgold&lang=en_us&username=osmel013&device=mobile&isPwaClaimed=1",
+        "enabled": false
+    },
+    {
+        "url": "https://osmclient-c.bewen.me/?token=4740f1cd4b4a026c50f054b8706d7197-325615&platform=pc&mode=live&language=zh_cn&studioid=cp&gameid=osmjjbxgold&lang=en_us&username=osmel014&device=mobile&isPwaClaimed=1",
+        "enabled": false
+    },
+    {
+        "url": "https://osmclient-c.bewen.me/?token=15a904def6544a01bf1e72c1050ce8bb-325604&platform=pc&mode=live&language=zh_cn&studioid=cp&gameid=osmbwjl&lang=en_us&username=osmel005&device=mobile&isPwaClaimed=1",
+        "enabled": false
+    },
+    {
+        "url": "https://osmclient-c.bewen.me/?token=f7a9664bf14a0d48f7b75e766c7d5761-325605&platform=pc&mode=live&language=zh_cn&studioid=cp&gameid=osmbwjl&lang=en_us&username=osmel006&device=mobile&isPwaClaimed=1",
+        "enabled": false
+    },
+    {
+        "url": "https://osmclient-c.bewen.me/?token=d5b2b1c394e78e889d9fcd517abb0449-325606&platform=pc&mode=live&language=zh_cn&studioid=cp&gameid=osmbwjl&lang=en_us&username=osmel007&device=mobile&isPwaClaimed=1",
+        "enabled": false
+    },
+    {
+        "url": "https://osmclient-c.bewen.me/?token=f6854ef3958e6f2deed256ad2bca8a0b-325607&platform=pc&mode=live&language=zh_cn&studioid=cp&gameid=osmbwjl&lang=en_us&username=osmel008&device=mobile&isPwaClaimed=1",
+        "enabled": false
+    },
+    {
+        "url": "https://osmclient-c.bewen.me/?token=79506eaed051bda5f5f12176a4a8abad-325618&platform=pc&mode=live&language=zh_cn&studioid=cp&gameid=osmbwjl&lang=en_us&username=osmel017&device=mobile&isPwaClaimed=1",
+        "enabled": false
+    },
+    {
+        "url": "https://osmclient-c.bewen.me/?token=9803e2a1a8db2ef27a0a4ba5afe6c02a-325620&platform=pc&mode=live&language=zh_cn&studioid=cp&gameid=osmbwjl&lang=en_us&username=osmel018&device=mobile&isPwaClaimed=1",
+        "enabled": false
+    },
+    {
+        "url": "https://osmclient-c.bewen.me/?token=5482d49cbddab2bcc9198bc6b0160ff9-325622&platform=pc&mode=live&language=zh_cn&studioid=cp&gameid=osmbwjl&lang=en_us&username=osmel019&device=mobile&isPwaClaimed=1",
+        "enabled": false
+    },
+    {
+        "url": "https://osmclient-c.bewen.me/?token=fe472c8be089e3ae65b418b5b6fba5ae-328802&platform=pc&mode=live&language=zh_cn&studioid=cp&gameid=osmbwjl&lang=en_us&username=osmel027&device=mobile&isPwaClaimed=1",
+        "enabled": false
+    },
+    {
+        "url": "https://osmclient-c.bewen.me/?token=fe472c8be089e3ae65b418b5b6fba5ae-328802&platform=pc&mode=live&language=zh_cn&studioid=cp&gameid=osmbwjl&lang=en_us&username=osmel027&device=mobile&isPwaClaimed=1",
+        "enabled": false
+    }
+]
